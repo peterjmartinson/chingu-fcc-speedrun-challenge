@@ -44,18 +44,26 @@ header #icon {
   padding:     0px;
 }
 
-/* header #icon { */
-/*   display:     block; */
-/*   background:  url(../assets/st_icon_bb_64.png) no-repeat; */
-/*   width:       64px; */
-/*   height:      64px; */
-/*   margin:      auto; */
-/*   padding:     0px; */
-/* } */
-
 header #name, #subtitle, #menu {
   display: none;
 }
+
+nav {
+  /* display: inline-block; */
+  position: fixed;
+  bottom: 0px;
+  width: 100vh;
+}
+
+nav .mobile-nav {
+  display: inline-block;
+  margin: 0px;
+  padding: 16px;
+  border: 0px solid black;
+  background:           #7887ab;
+  color:      #061539;
+}
+
 
 /**
  * desktop media query
@@ -91,17 +99,6 @@ header #name, #subtitle, #menu {
     margin:      0px;
     padding:     0px;
   }
-
-  /* header #icon { */
-  /*   display:        inherit; */
-  /*   background:     url(../assets/st_icon_bb_128.png) no-repeat; */
-  /*   width:          128px; */
-  /*   height:         128px; */
-  /*   margin:         auto; */
-  /*   margin-top:     32px; */
-  /*   margin-bottom:  32px; */
-  /*   padding:        0px; */
-  /* } */
 
   header #name, #subtitle {
     display: inherit;

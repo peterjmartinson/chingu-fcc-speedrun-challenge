@@ -3,7 +3,7 @@ footer {
   color:        #7887ab;
   font-size:    1.5rem;
   font-weight:  normal;
-  padding:      16px;
+  padding:      16px 0px 16px 0px;
   width:        100%;
   text-align: center;
 }
