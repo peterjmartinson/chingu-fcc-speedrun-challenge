@@ -52,16 +52,40 @@ nav {
   /* display: inline-block; */
   position: fixed;
   bottom: 0px;
-  width: 100vh;
+  width: 100vw;
 }
 
-nav .mobile-nav {
-  display: inline-block;
-  margin: 0px;
-  padding: 16px;
-  border: 0px solid black;
-  background:           #7887ab;
-  color:      #061539;
+nav div {
+}
+
+nav .nav-box {
+  /* display:     inline-block; */
+  padding:     24px 16px 24px 16px;
+  width:       25%;
+  /* margin-right: -5px; */
+  border:      0px solid black;
+  background:  #7887ab;
+  color:       #061539;
+  text-align:  center;
+}
+
+nav a {
+  color: #061539;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #7887ab;
+  text-decoration: none;
+}
+
+nav .nav-icon {
+  margin-bottom: 9px;
+  display: block;
+}
+
+nav .nav-title {
+  display: block;
 }
 
 
